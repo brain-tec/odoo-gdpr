@@ -23,22 +23,16 @@
 #
 {
     'name': 'GDPR: Inventory Tier Validation',
-    'version': '18.0.1.0.0',
-    'summary': "Adds tier validation to the GDPR processing inventory.",
+    'version': '1.0',
+    'summary': """
+        Short (1 phrase/line) summary of the module's purpose, used as
+        subtitle on modules listing or apps.odoo.com""",
     'category': '', # Technical Settings|Localization|Payroll Localization|Account Charts|User types|Invoicing|Sales|Human Resources|Operations|Marketing|Manufacturing|Website|Theme|Administration|Appraisals|Sign|Helpdesk|Administration|Extra Rights|Other Extra Rights|
-    'description': '''
-Inventory Tier Validation
-=========================
-
-    Adds tier validation to the GDPR processing inventory.
-
-    Features:
-
-        - UI Integration: Extends 1 view(s) in the Odoo interface.
-        - Extends Odoo: Builds on gdpr.inventory, tier.definition.
-    ''',
-    'author': 'Vertel AB',
-    'website': 'https://vertel.se/apps/odoo-gdpr/gdpr_inventory_tier_validation',
+    'description': """
+        Long description of module's purpose
+    """,
+    'author': 'Vertel Sverige AB',
+    'website': 'https://vertel.se/apps/odoo-',
     'images': ['static/description/banner.png'],
     'license': 'AGPL-3',
     'depends': ["gdpr_inventory","base_tier_validation"],

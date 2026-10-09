@@ -2,7 +2,7 @@
 ##############################################################################
 #
 #    OpenERP, Open Source Management Solution, third party addon
-#    Copyright (C) 2004-2017 Vertel AB (<http://vertel.se>).
+#    Copyright (C) 2004-2017 Vertel Sverige AB (<http://vertel.se>).
 #
 #    This program is free software: you can redistribute it and/or modify
 #    it under the terms of the GNU Affero General Public License as
@@ -21,26 +21,22 @@
 
 {
     'name': 'GDPR Inventory',
-    'version': '18.0.1.2.0',
+    'version': '1.2',
     'license': 'AGPL-3',
     'category': 'Other',
-    'summary': 'Inventory for GDPR.',
-    'description': '''
-GDPR Inventory
-==============
+    'summary': 'Inventory for GDPR',
+    'description': """
+Basic tool to make your data handling GDPR compliant.
 
-    Set up rules to govern purpose and life span of inventoried data. Once data is no longer allowed to be stored, it can be automatically overwritten, deleted, hidden or flagged for manual processing.
+Create inventories of all the private data you handle.
 
-    Features:
+Manage consents of data storage and handling.
 
-        - Automation: Scheduled jobs: GDPR Restrict Objects.
-        - Reports: Adds printable reports.
-        - UI Integration: Extends 7 view(s) in the Odoo interface.
-        - Extends Odoo: Builds on category, gdpr.bp, gdpr.category, gdpr.consent.
-    ''',
+Set up rules to govern purpose and life span of inventoried data. Once data is no longer allowed to be stored, it can be automatically overwritten, deleted, hidden or flagged for manual processing.
+""",
     'images': ['static/description/event_participant.jpg'],
-    'author': 'Vertel AB',
-    'website': 'https://vertel.se/apps/odoo-gdpr/gdpr_inventory',
+    'author': 'Vertel Sverige AB',
+    'website': 'http://www.vertel.se',
     'depends': [
         'mail', 
         'document_page', 
